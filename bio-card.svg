@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 380" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="55%" stop-color="#101d34"/>
+      <stop offset="100%" stop-color="#15294a"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8ed4f0"/>
+      <stop offset="100%" stop-color="#1e5f8c"/>
+    </linearGradient>
+    <linearGradient id="pillBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1e5f8c"/>
+      <stop offset="100%" stop-color="#4a9fd8"/>
+    </linearGradient>
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="800" height="380" rx="18" ry="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="800" height="380" fill="url(#cardBg)"/>
+
+    <!-- soft decorative circles -->
+    <circle cx="760" cy="30" r="90" fill="#4a9fd8" opacity="0.06"/>
+    <circle cx="740" cy="340" r="110" fill="#8ed4f0" opacity="0.05"/>
+
+    <!-- left accent bar -->
+    <rect x="0" y="0" width="6" height="380" fill="url(#accentBar)"/>
+
+    <!-- border -->
+    <rect x="1" y="1" width="798" height="378" rx="17" ry="17"
+          fill="none" stroke="#8ed4f0" stroke-opacity="0.18" stroke-width="1.5"/>
+
+    <g font-family="'Poppins', 'Segoe UI', Arial, sans-serif">
+      <!-- section label -->
+      <text x="40" y="52" font-size="13" font-weight="700" fill="#8ed4f0" letter-spacing="3">
+        ABOUT ME
+      </text>
+      <rect x="40" y="62" width="46" height="3" rx="1.5" fill="#4a9fd8"/>
+
+      <!-- body copy -->
+      <g font-size="16" font-weight="400" fill="#dbe7f3">
+        <text x="40" y="104">Senior Full-Stack Engineer with 5+ years of experience</text>
+        <text x="40" y="130">building production-grade SaaS platforms from 0 to 1.</text>
+
+        <text x="40" y="164">I specialize in the <tspan fill="#8ed4f0" font-weight="600">MERN stack</tspan> with</text>
+        <text x="40" y="190"><tspan fill="#8ed4f0" font-weight="600">AWS</tspan> (EC2, S3, Lambda, CloudFront) and have built</text>
+        <text x="40" y="216"><tspan fill="#8ed4f0" font-weight="600">Storifyy.cloud</tspan> — a complete Google Drive</text>
+        <text x="40" y="242">alternative with subscription billing, Redis queues,</text>
+        <text x="40" y="268">and serverless architecture — entirely solo.</text>
+
+        <text x="40" y="302">From system design to deployment pipelines, I handle</text>
+        <text x="40" y="328">the full stack of decisions, not just the code between them.</text>
+      </g>
+
+      <!-- CTA pill -->
+      <rect x="40" y="348" width="330" height="0" fill="none"/>
+      <g transform="translate(40,340)">
+        <rect x="0" y="0" width="300" height="28" rx="14" ry="14" fill="url(#pillBg)"/>
+        <text x="150" y="19" text-anchor="middle" font-size="13" font-weight="600" fill="#0b1120" letter-spacing="0.5">
+          🚀 Open to Remote Full-Stack Roles
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

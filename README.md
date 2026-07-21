@@ -1,19 +1,6 @@
 ![Banner](./banner.svg)
 
-<div style="background:#0d1117; border:1px solid #30363d; border-radius:14px; padding:18px 20px; font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; color:#c9d1d9; box-shadow:0 10px 30px rgba(0,0,0,0.25);">
-  <div style="display:flex; gap:8px; margin-bottom:12px;">
-    <span style="width:10px; height:10px; border-radius:50%; background:#ff5f56;"></span>
-    <span style="width:10px; height:10px; border-radius:50%; background:#ffbd2e;"></span>
-    <span style="width:10px; height:10px; border-radius:50%; background:#27c93f;"></span>
-  </div>
-  <div><span style="color:#58a6ff;">$</span> <span style="color:#7ee787;">cat bio.txt</span></div>
-  <div style="margin-top:8px; line-height:1.7;">
-   Senior Full-Stack Engineer with 5+ years of experience building production-grade SaaS platforms from 0 to 1.<br>
-    I specialize in the MERN stack with AWS (EC2, S3, Lambda, CloudFront) and have built Storifyy.cloud—a complete Google Drive alternative with subscription billing, Redis queues, and serverless architecture—entirely solo.<br><br>
-    From system design to deployment pipelines, I handle the full stack of decisions, not just the code between them.<br>
-    Looking for remote full-stack roles where I can ship fast and build products users love.
-  </div>
-</div>
+![Bio](./bio-card.svg)
 
 ## 🌐 Socials:
 
@@ -71,14 +58,4 @@
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
 ![Sentry](https://img.shields.io/badge/sentry-%23362D59.svg?style=for-the-badge&logo=sentry&logoColor=white)
 
-# 📊 GitHub Stats:
-
-![](https://github-readme-stats.vercel.app/api?username=armanihsan-dev&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=armanihsan-dev&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=armanihsan-dev&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
----
-
-[![](https://visitcount.itsvg.in/api?id=armanihsan-dev&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+![Bio](./footer.svg)
