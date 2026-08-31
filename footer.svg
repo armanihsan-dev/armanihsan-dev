@@ -1,83 +1,78 @@
 <svg viewBox="0 0 900 160" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080808"/>
-      <stop offset="100%" stop-color="#141414"/>
+    <!-- Matte Obsidian Background -->
+    <linearGradient id="matteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#121212"/>
     </linearGradient>
-    
-    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f6d365"/>
-      <stop offset="100%" stop-color="#fda085"/>
+
+    <!-- Silver Chrome Gradient -->
+    <linearGradient id="silverChrome" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#888888" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.8"/>
     </linearGradient>
-    
-    <filter id="softGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+
+    <!-- Grain/Noise Filter -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.75" numOctaves="3" stitchTiles="stitch"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.04"/></feComponentTransfer>
     </filter>
-    
-    <clipPath id="footerClip">
-      <rect x="0" y="0" width="900" height="160" rx="12" ry="12"/>
-    </clipPath>
   </defs>
 
-  <g clip-path="url(#footerClip)">
-    <rect x="0" y="0" width="900" height="160" fill="url(#footerBg)"/>
-    
-    <!-- Subtle Pattern -->
-    <g opacity="0.025">
-      <circle cx="60" cy="140" r="40" fill="none" stroke="#f6d365" stroke-width="0.5"/>
-      <circle cx="60" cy="140" r="70" fill="none" stroke="#f6d365" stroke-width="0.5"/>
-      <circle cx="840" cy="20" r="40" fill="none" stroke="#f6d365" stroke-width="0.5"/>
-      <circle cx="840" cy="20" r="70" fill="none" stroke="#f6d365" stroke-width="0.5"/>
-    </g>
-    
-    <!-- Outer Border -->
-    <rect x="8" y="8" width="884" height="144" rx="8" ry="8" 
-          fill="none" stroke="#ffffff" stroke-opacity="0.06" stroke-width="1"/>
-    
-    <!-- Inner Border -->
-    <rect x="16" y="16" width="868" height="128" rx="6" ry="6" 
-          fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="0.5"/>
-    
-    <!-- Top Gold Line -->
-    <line x1="250" y1="16" x2="650" y2="16" stroke="url(#gold)" stroke-width="1.5" opacity="0.5"/>
-    
-    <!-- Bottom Gold Line -->
-    <line x1="250" y1="144" x2="650" y2="144" stroke="url(#gold)" stroke-width="1.5" opacity="0.5"/>
-    
-    <g font-family="'Outfit', 'Inter', 'Segoe UI', Arial, sans-serif">
-      
-      <!-- ===== SECTION LABEL ===== -->
-      <text x="40" y="52" font-size="11" font-weight="600" 
-      font-family="'Outfit', sans-serif"
-            fill="#f6d365" letter-spacing="4" >
-        CONTACT
-      </text>
-      
-      
-      <!-- ===== FOOTER MESSAGE ===== -->
-      <text x="40" y="90" font-size="15" font-weight="400" 
-      font-family="'Outfit', sans-serif"
-            fill="#888888" letter-spacing="0.8">
-       Available for Senior Full-Stack Roles &amp; Select Contracts. 
-      </text>
-      
-          <g>
-        <text x="40" y="136" font-size="30" font-weight="400" 
-              fill="#f6d365" letter-spacing="2">
-          🍀
-        </text>
-      </g>
-      <!-- ===== DIAMOND DECORATION ===== -->
-      <polygon points="860,20 868,28 860,36 852,28" 
-               fill="url(#gold)" opacity="0.25"/>
-      
-      <!-- ===== GOLD ACCENT DOT ===== -->
-      <circle cx="870" cy="140" r="2" fill="#f6d365" opacity="0.15"/>
-      
-    </g>
+  <!-- Background Base -->
+  <rect width="900" height="160" rx="4" fill="url(#matteGrad)"/>
+  <rect width="900" height="160" rx="4" fill="white" filter="url(#noise)"/>
+
+  <!-- Blueprint Grid lines -->
+  <g stroke="white" stroke-opacity="0.04" stroke-width="0.5">
+    <path d="M0 40 H900 M0 120 H900"/>
+    <path d="M45 0 V160 M855 0 V160"/>
+  </g>
+
+  <!-- Corner Brackets -->
+  <g stroke="#ffffff" stroke-opacity="0.2" stroke-width="1" fill="none">
+    <path d="M15 30 V15 H30"/> <!-- TL -->
+    <path d="M870 15 H885 V30"/> <!-- TR -->
+    <path d="M15 130 V145 H30"/> <!-- BL -->
+    <path d="M870 145 H885 V130"/> <!-- BR -->
+  </g>
+
+  <!-- Section Label -->
+  <text x="50" y="38" font-family="monospace" font-size="8" fill="#ffffff" fill-opacity="0.4" letter-spacing="3">
+    0xFF // CONNECT_GATEWAY
+  </text>
+
+  <!-- Main Footer Message -->
+  <text x="50" y="85" font-family="'Inter', sans-serif" font-size="22" font-weight="200" fill="#ffffff" letter-spacing="1">
+    Available for <tspan font-weight="800" fill="url(#silverChrome)">Senior Architect</tspan> Roles 
+  </text>
+  <text x="50" y="112" font-family="'Inter', sans-serif" font-size="14" fill="#888888" letter-spacing="0.5">
+    Strategic full-stack engineering for high-throughput backends and resilient, scalable cloud systems.
+  </text>
+
+  <!-- Operational Status UI -->
+  <g transform="translate(50, 135)">
+    <circle cx="4" cy="-4" r="3" fill="#ffffff" fill-opacity="0.8"/>
+    <text x="15" y="0" font-family="monospace" font-size="9" fill="#ffffff" fill-opacity="0.6">
+      STATUS: OPEN_FOR_DEPLOYMENT_2026
+    </text>
+  </g>
+
+  <!-- Data Visual Accent (Right Side Barcode-style) -->
+  <g transform="translate(780, 60)" opacity="0.2">
+    <rect x="0" y="0" width="2" height="40" fill="#fff"/>
+    <rect x="5" y="0" width="6" height="40" fill="#fff"/>
+    <rect x="15" y="0" width="1" height="40" fill="#fff"/>
+    <rect x="20" y="0" width="4" height="40" fill="#fff"/>
+    <rect x="30" y="0" width="8" height="40" fill="#fff"/>
+    <rect x="42" y="0" width="2" height="40" fill="#fff"/>
+    <text x="0" y="52" font-family="monospace" font-size="7" fill="#fff">SIG_VERIFIED</text>
+  </g>
+
+  <!-- Bottom Coordinate Metadata -->
+  <g font-family="monospace" font-size="7" fill="#ffffff" fill-opacity="0.2">
+    <text x="450" y="152" text-anchor="middle">EOF // NODE_TERMINATED_SUCCESSFULLY</text>
+    <text x="855" y="152" text-anchor="end">MTU: 1500</text>
   </g>
 </svg>
