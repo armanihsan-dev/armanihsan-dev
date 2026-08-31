@@ -12,7 +12,7 @@
 <br/>
 
 <!-- HEADER: INTERFACE ENGINEERING -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=FFFFFF&width=435&lines=INTERFACE_ENGINEERING" alt="Interface Engineering" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=111827&width=435&lines=INTERFACE_ENGINEERING" alt="Interface Engineering" />
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-000?style=flat-square&logo=typescript)
 ![React](https://img.shields.io/badge/React-000?style=flat-square&logo=react)
@@ -28,7 +28,7 @@
 <br/>
 
 <!-- HEADER: SYSTEMS LOGIC -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=FFFFFF&width=435&lines=SYSTEMS_LOGIC_AND_DATA_ARCHITECTURE" alt="Systems Logic" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=111827&width=435&lines=SYSTEMS_LOGIC_AND_DATA_ARCHITECTURE" alt="Systems Logic" />
 
 ![Node.js](https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs)
 ![NestJS](https://img.shields.io/badge/NestJS-000?style=flat-square&logo=nestjs)
@@ -41,7 +41,7 @@
 <br/>
 
 <!-- HEADER: AUTH & IDENTITY -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=FFFFFF&width=435&lines=IDENTITY_AND_ACCESS_MANAGEMENT" alt="Auth" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=111827&width=435&lines=IDENTITY_AND_ACCESS_MANAGEMENT" alt="Auth" />
 
 ![OAuth2](https://img.shields.io/badge/OAuth_2.0-000?style=flat-square&logo=auth0)
 ![JWT](https://img.shields.io/badge/JWT-000?style=flat-square&logo=jsonwebtokens)
@@ -52,7 +52,7 @@
 <br/>
 
 <!-- HEADER: INFRASTRUCTURE -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=FFFFFF&width=435&lines=INFRASTRUCTURE_ORCHESTRATION" alt="Infrastructure" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=111827&width=435&lines=INFRASTRUCTURE_ORCHESTRATION" alt="Infrastructure" />
 
 ![AWS](https://img.shields.io/badge/AWS-000?style=flat-square&logo=amazonwebservices)
 ![Docker](https://img.shields.io/badge/Docker-000?style=flat-square&logo=docker)
@@ -64,7 +64,7 @@
 <br/>
 
 <!-- HEADER: OBSERVABILITY -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=FFFFFF&width=435&lines=OBSERVABILITY_AND_MONITORING" alt="Observability" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=111827&width=435&lines=OBSERVABILITY_AND_MONITORING" alt="Observability" />
 
 ![Prometheus](https://img.shields.io/badge/Prometheus-000?style=flat-square&logo=prometheus)
 ![Grafana](https://img.shields.io/badge/Grafana-000?style=flat-square&logo=grafana)
@@ -74,7 +74,7 @@
 <br/>
 
 <!-- HEADER: TOOLS -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=FFFFFF&width=435&lines=WORKFLOW_AND_QUALITY_ASSURANCE" alt="Tools" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=111827&width=435&lines=WORKFLOW_AND_QUALITY_ASSURANCE" alt="Tools" />
 
 ![VS Code](https://img.shields.io/badge/VS_Code-000?style=flat-square&logo=visualstudiocode)
 ![Git](https://img.shields.io/badge/Git-000?style=flat-square&logo=git)
