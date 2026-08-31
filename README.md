@@ -28,7 +28,7 @@
 <br/>
 
 <!-- HEADER: SYSTEMS LOGIC -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=20&pause=1000&color=111827&width=435&lines=SYSTEMS_LOGIC_AND_DATA_ARCHITECTURE" alt="Systems Logic" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=840&size=20&pause=1000&color=111827&width=460&lines=SYSTEMS_LOGIC_AND_DATA_ARCHITECTURE" alt="Systems Logic" />
 
 ![Node.js](https://img.shields.io/badge/Node.js-000?style=flat-square&logo=nodedotjs)
 ![NestJS](https://img.shields.io/badge/NestJS-000?style=flat-square&logo=nestjs)
